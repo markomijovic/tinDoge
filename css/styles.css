@@ -1,0 +1,161 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    font-weight: 900;
+    font-size: 3.5em;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 15% 8% 15%;
+}
+
+.btn-outline-dark {
+    color: white;
+    border-color: white;
+}
+.btn-outline-dark:hover {
+    background-color: white;
+    color: rgba(204, 5, 71, 0.781);
+}
+#title {
+    background-color: rgba(204, 5, 71, 0.781);
+}
+
+/* nav bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.title-img {
+    width: 15%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 20%;
+}
+
+/* Three points below title */
+#features {
+    position: relative;
+    padding: 5% 15%;
+    background-color: white;
+}
+
+.three-points {
+    text-align: center;
+
+    padding: 5%;
+}
+.three-h3 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.three-p {
+    color: #8f8f8f;
+}
+
+.font-awesome-pad {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.font-awesome-pad:hover {
+    color: rgba(204, 5, 71, 0.781);
+}
+
+#testimonials {
+    text-align: center;
+    background-color: rgb(204, 5, 71, 0.781);
+    color: white;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: rgb(204, 5, 71, 0.781);
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.news-logo {
+    width: 10%;
+    margin: 20px 20px 0;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 7%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-color: rgb(204, 5, 71, 0.781);
+    padding: 10%;
+}
+
+.cta-text {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.cta-button {
+    margin: 2% 1%;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 5%;
+}
+.footer-icons {
+    padding: 0 0.5% 0.5% 0.5%;
+}
+/* Media Query */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        width: 40%;
+        transform: rotate(0);
+    }
+} ;
